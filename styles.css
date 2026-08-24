@@ -1,17 +1,17 @@
 /* ===== Tokens ===== */
 :root{
-  --paper: #FBF2D9;
-  --ink: #472208;
-  --ink-soft: #8A5A24;
-  --teal: #C4930C;
-  --teal-dark: #966E09;
-  --coral: #F27430;
-  --gold: #F2E829;
-  --card: #FFFDF6;
-  --line: rgba(71,34,8,0.14);
-  --manila: #EDD377;
-  --manila-light: #F5E4A6;
-  --manila-edge: #F2B949;
+  --paper: #EDE6D3;
+  --ink: #16160F;
+  --ink-soft: #6B6455;
+  --teal: #4E6B5B;
+  --teal-dark: #37493E;
+  --coral: #C98A2E;
+  --gold: #E0A83C;
+  --card: #FBF7EC;
+  --line: rgba(22,22,15,0.14);
+  --manila: #DCD3B4;
+  --manila-light: #EAE2C4;
+  --manila-edge: #4E6B5B;
 
   --font-display: "Fraunces", serif;
   --font-body: "Work Sans", sans-serif;
