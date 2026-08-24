@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Max Bissonnette — Composer &amp; Writer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,900;1,9..144,500&family=Work+Sans:wght@400;500;600&family=Chiron+GoRound+TC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="staff-cursor" aria-hidden="true"></div>
+
+<header class="site-header" id="top">
+  <a class="brand" href="#top">
+    <span class="brand-mark">MB</span>
+  </a>
+
+  <nav class="site-nav" id="site-nav">
+    <a href="#about"><span class="mvt">I.</span> About</a>
+    <a href="#portfolio"><span class="mvt">II.</span> Portfolio</a>
+    <a href="#honors"><span class="mvt">III.</span> Honors</a>
+    <a href="#contact"><span class="mvt">IV.</span> Contact</a>
+  </nav>
+
+  <a class="resume-btn" href="Resume_Bissonnette.pdf" download>Résumé ↓</a>
+
+  <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="staff" aria-hidden="true">
+      <svg viewBox="0 0 1000 140" preserveAspectRatio="none">
+        <line x1="0" y1="20" x2="1000" y2="20"></line>
+        <line x1="0" y1="45" x2="1000" y2="45"></line>
+        <line x1="0" y1="70" x2="1000" y2="70"></line>
+        <line x1="0" y1="95" x2="1000" y2="95"></line>
+        <line x1="0" y1="120" x2="1000" y2="120"></line>
+      </svg>
+    </div>
+
+    <p class="eyebrow">New York, NY</p>
+    <h1 class="hero-name">Max<br>Bissonnette</h1>
+    <p class="hero-tagline">A composer, first — of music, of poetry, of whatever else needs composing.</p>
+
+    <div class="hero-actions">
+      <a href="#portfolio" class="btn btn-primary">View portfolio</a>
+      <a href="#about" class="btn btn-ghost">About Max</a>
+    </div>
+
+    <div class="hero-note">
+      <span class="note-glyph">♩</span>
+      <span>Based in New York City</span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <p class="section-label"><span class="mvt">I.</span> About</p>
+
+    <div class="about-grid">
+      <div class="about-portrait" aria-hidden="true">
+        <svg viewBox="0 0 200 240" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0" y="0" width="200" height="240" rx="18" fill="var(--card)"/>
+          <circle cx="100" cy="95" r="46" fill="var(--gold)" opacity="0.35"/>
+          <path d="M60 190c4-38 22-60 40-60s36 22 40 60" fill="none" stroke="var(--ink)" stroke-width="3"/>
+          <circle cx="100" cy="92" r="34" fill="none" stroke="var(--ink)" stroke-width="3"/>
+          <path d="M78 88c4-14 40-14 44 0" fill="none" stroke="var(--ink)" stroke-width="3" stroke-linecap="round"/>
+          <text x="100" y="222" text-anchor="middle" font-family="IBM Plex Mono" font-size="10" fill="var(--ink)">add a real photo here</text>
+        </svg>
+      </div>
+
+      <div class="about-copy">
+        <p>Max Bissonnette writes because they can't not. A phrase gets stuck the way a melody does, and it has to be followed through — sketched out, recorded, finished. At their core they're a composer: of music, of poetry, of whatever else needs composing. They're currently in Special Music School's composition program, though the writing spills into playwriting, journalism, and organizing just as often as it stays put in music.</p>
+        <p>Outside of composing, Max has served in student government, co-led Model UN, and edited their school's literary magazine and newspaper. They currently organize with We the Students on student advocacy and fundraising. Their poetry has picked up a couple of Scholastic Gold Keys and an honorable mention from the Luna Composition Lab — the rest is under Honors.</p>
+
+        <div class="fact-row">
+          <div class="fact">
+            <span class="fact-label">Based in</span>
+            <span class="fact-value">New York, NY</span>
+          </div>
+          <div class="fact">
+            <span class="fact-label">Practice</span>
+            <span class="fact-value">Composition, writing, art</span>
+          </div>
+          <div class="fact">
+            <span class="fact-label">Also</span>
+            <span class="fact-value">Organizing &amp; advocacy</span>
+          </div>
+          <div class="fact">
+            <span class="fact-label">Languages</span>
+            <span class="fact-value">English, French</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section class="section portfolio" id="portfolio">
+    <p class="section-label"><span class="mvt">II.</span> Portfolio</p>
+    <div class="portfolio-head">
+      <h2>Selected work</h2>
+      <div class="toggle" role="tablist" aria-label="Portfolio category">
+        <button class="toggle-btn is-active" data-cat="music" role="tab" aria-selected="true">Music</button>
+        <button class="toggle-btn" data-cat="writing" role="tab" aria-selected="false">Writing</button>
+      </div>
+    </div>
+
+    <p class="portfolio-placeholder-note">Placeholders — not real pieces yet. Add titles, links, audio, and scores when ready.</p>
+
+    <div class="work-grid" id="work-grid">
+
+      <article class="work-card" data-cat="music">
+        <div class="work-glyph">♪</div>
+        <span class="work-tag">Score / Audio — add link</span>
+        <h3>Untitled Composition No. 1</h3>
+        <p>One line on instrumentation, ensemble, and what the piece is doing.</p>
+      </article>
+
+      <article class="work-card" data-cat="music">
+        <div class="work-glyph">♫</div>
+        <span class="work-tag">Score / Audio — add link</span>
+        <h3>Untitled Composition No. 2</h3>
+        <p>One line on where it was written or performed (Juilliard, French Woods, etc.).</p>
+      </article>
+
+      <article class="work-card" data-cat="music">
+        <div class="work-glyph">𝄞</div>
+        <span class="work-tag">Score / Audio — add link</span>
+        <h3>Theatrical scoring sample</h3>
+        <p>Music written for a production — production name, role, instrumentation.</p>
+      </article>
+
+      <article class="work-card" data-cat="writing" hidden>
+        <div class="work-glyph">✎</div>
+        <span class="work-tag">Poetry — add link</span>
+        <h3>Untitled Poem</h3>
+        <p>Scholastic Gold Key piece, 2025 or 2026 — title and a one-line description.</p>
+      </article>
+
+      <article class="work-card" data-cat="writing" hidden>
+        <div class="work-glyph">✎</div>
+        <span class="work-tag">Playwriting — add link</span>
+        <h3>Untitled Play</h3>
+        <p>Scholastic Honorable Mention piece, Playwriting 2026 — logline goes here.</p>
+      </article>
+
+      <article class="work-card" data-cat="writing" hidden>
+        <div class="work-glyph">✎</div>
+        <span class="work-tag">Anthology — add link</span>
+        <h3>Contribution to "Heatwave"</h3>
+        <p>Kenyon Review Young Writers Workshop anthology, 2026 — piece title and excerpt.</p>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- HONORS + EXPERIENCE -->
+  <section class="section honors" id="honors">
+    <p class="section-label"><span class="mvt">III.</span> Honors &amp; experience</p>
+
+    <div class="honors-grid">
+      <div class="honors-col">
+        <h3>Honors &amp; awards</h3>
+        <ul class="line-list">
+          <li><span class="li-year">2025–26</span> Scholastic Art &amp; Writing — Gold Key, Poetry</li>
+          <li><span class="li-year">2026</span> Scholastic Art &amp; Writing — Honorable Mention, Playwriting</li>
+          <li><span class="li-year">2025</span> Luna Composition Lab — Fellowship Honorable Mention</li>
+          <li><span class="li-year">2024</span> The Tony Awards, with .Art — Winner, Digital Artwork</li>
+          <li><span class="li-year">—</span> AP Scholar with Distinction</li>
+        </ul>
+      </div>
+
+      <div class="honors-col">
+        <h3>Experience &amp; involvement</h3>
+        <ul class="line-list">
+          <li><span class="li-year">2026</span> Constituent Services Intern — NY State Assembly, District 69</li>
+          <li><span class="li-year">2026</span> Campaign Fellow — Alex Bores for Congress</li>
+          <li><span class="li-year">2026</span> Art Manager, "Heatwave" — Kenyon Review Young Writers Workshop</li>
+          <li><span class="li-year">2024–</span> Student Ambassador — Kaufman Music Center</li>
+          <li><span class="li-year">2025</span> Composition Intensive — The Juilliard School</li>
+          <li><span class="li-year">2019–25</span> CIT / Asst. Music Director — French Woods Festival</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESUME -->
+  <section class="section resume" id="resume">
+    <div class="resume-card">
+      <div class="resume-copy">
+        <p class="section-label light"><span class="mvt">IV.</span> Résumé</p>
+        <h2>The full score.</h2>
+        <p>Education, experience, honors, and volunteering — the paper version.</p>
+      </div>
+      <a href="Resume_Bissonnette.pdf" download class="btn btn-primary btn-large">Download résumé ↓</a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <p class="section-label"><span class="mvt">V.</span> Contact</p>
+    <h2>Get in touch.</h2>
+    <p class="contact-lede">Open to commissions, collaborations, organizing work, or just talking shop.</p>
+
+    <div class="contact-grid">
+      <a class="contact-link" href="mailto:maxcbissonnette@gmail.com">
+        <span class="contact-label">Email</span>
+        <span class="contact-value">maxcbissonnette@gmail.com</span>
+      </a>
+      <div class="contact-link is-placeholder">
+        <span class="contact-label">Instagram</span>
+        <span class="contact-value">add handle</span>
+      </div>
+      <div class="contact-link is-placeholder">
+        <span class="contact-label">SoundCloud</span>
+        <span class="contact-value">add link</span>
+      </div>
+      <a class="contact-link" href="https://www.linkedin.com/in/max-bissonnette-b10414374" target="_blank" rel="noopener">
+        <span class="contact-label">LinkedIn</span>
+        <span class="contact-value">View profile</span>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <span>© 2026 Max Bissonnette</span>
+  <a href="#top">Back to top ↑</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
