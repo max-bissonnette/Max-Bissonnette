@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio — Max Bissonnette</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,900;1,9..144,500&family=Work+Sans:wght@400;500;600&family=Chiron+GoRound+TC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header" id="top">
+  <a class="brand" href="index.html">
+    <span class="brand-mark">MB</span>
+  </a>
+
+  <nav class="site-nav" id="site-nav">
+    <a href="about.html"><span class="mvt">I.</span> About</a>
+    <a href="portfolio.html"><span class="mvt">II.</span> Portfolio</a>
+    <a href="honors.html"><span class="mvt">III.</span> Honors</a>
+    <a href="contact.html"><span class="mvt">IV.</span> Contact</a>
+  </nav>
+
+  <a class="resume-btn" href="Resume_Bissonnette.pdf" download>Résumé ↓</a>
+
+  <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main>
+
+  <!-- PORTFOLIO -->
+  <section class="section portfolio page-lead" id="portfolio">
+    <p class="section-label"><span class="mvt">II.</span> Portfolio</p>
+    <div class="portfolio-head">
+      <h2>Selected work</h2>
+      <div class="toggle" role="tablist" aria-label="Portfolio category">
+        <button class="toggle-btn is-active" data-cat="music" role="tab" aria-selected="true">Music</button>
+        <button class="toggle-btn" data-cat="writing" role="tab" aria-selected="false">Writing</button>
+      </div>
+    </div>
+
+    <p class="portfolio-placeholder-note">Placeholders — not real pieces yet. Add titles, links, audio, and scores when ready.</p>
+
+    <div class="work-grid" id="work-grid">
+
+      <article class="work-card" data-cat="music">
+        <div class="work-glyph">♪</div>
+        <span class="work-tag">Score / Audio — add link</span>
+        <h3>Untitled Composition No. 1</h3>
+        <p>One line on instrumentation, ensemble, and what the piece is doing.</p>
+      </article>
+
+      <article class="work-card" data-cat="music">
+        <div class="work-glyph">♫</div>
+        <span class="work-tag">Score / Audio — add link</span>
+        <h3>Untitled Composition No. 2</h3>
+        <p>One line on where it was written or performed (Juilliard, French Woods, etc.).</p>
+      </article>
+
+      <article class="work-card" data-cat="music">
+        <div class="work-glyph">𝄞</div>
+        <span class="work-tag">Score / Audio — add link</span>
+        <h3>Theatrical scoring sample</h3>
+        <p>Music written for a production — production name, role, instrumentation.</p>
+      </article>
+
+      <article class="work-card" data-cat="writing" hidden>
+        <div class="work-glyph">✎</div>
+        <span class="work-tag">Poetry — add link</span>
+        <h3>Untitled Poem</h3>
+        <p>Scholastic Gold Key piece, 2025 or 2026 — title and a one-line description.</p>
+      </article>
+
+      <article class="work-card" data-cat="writing" hidden>
+        <div class="work-glyph">✎</div>
+        <span class="work-tag">Playwriting — add link</span>
+        <h3>Untitled Play</h3>
+        <p>Scholastic Honorable Mention piece, Playwriting 2026 — logline goes here.</p>
+      </article>
+
+      <article class="work-card" data-cat="writing" hidden>
+        <div class="work-glyph">✎</div>
+        <span class="work-tag">Anthology — add link</span>
+        <h3>Contribution to "Heatwave"</h3>
+        <p>Kenyon Review Young Writers Workshop anthology, 2026 — piece title and excerpt.</p>
+      </article>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <span>© 2026 Max Bissonnette</span>
+  <a href="#top">Back to top ↑</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
