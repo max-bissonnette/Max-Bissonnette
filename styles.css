@@ -291,7 +291,7 @@ h1,h2,h3{font-family:var(--font-display);margin:0;line-height:1.05;}
 .contact-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 2 columns */
-  grid-template-rows: repeat(2, 1fr);    /* 2 rows */
+  grid-template-rows: repeat(2, 150px);  /* Set a fixed height for the 2 rows, change 150px as needed */
   gap: 16px;
 }
 .contact-link{
